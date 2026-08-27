@@ -42,7 +42,6 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.example.data.model.ScanSource
 import com.example.ui.components.AdrPlateView
-import com.example.ui.components.EmergencySosCard
 import com.example.ui.components.ErgCalculatorCard
 import com.example.ui.components.KemlerBreakdownCard
 import com.example.ui.components.UnSubstanceCard
@@ -432,11 +431,6 @@ fun ScannerScreen(
                 item {
                     WaterReactiveWarningBanner()
                 }
-            }
-
-            // Emergency SOS Call and Report Card (1-a)
-            item {
-                EmergencySosCard(result = result)
             }
 
             // Kemler Digit by Digit Breakdown Card
