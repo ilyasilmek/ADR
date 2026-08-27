@@ -1,0 +1,7 @@
+{
+  "name": "ADR Levha Okuyucu",
+  "description": "Tehlikeli madde taşımacılığı (ADR) turuncu levhalarını ve plaka kodlarını kamera veya galeriden okuyup Kemler kodu ve UN numarasını detaylı olarak çözümleyen rehber uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
